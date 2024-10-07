@@ -1,14 +1,14 @@
-import CallWheather from './components/Wheather'
-function App() {
+import { WeatherApp } from './components/WeatherApp';
 
+function App() {
   return (
     <div className="max-w-screen-xl mx-auto p-8 text-center">
-      <CallWheather/>
-
+      <WeatherApp/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
 
 
